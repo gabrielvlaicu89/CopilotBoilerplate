@@ -1,0 +1,21 @@
+{
+  "name": "copilot-orchestrator-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable VS Code and GitHub Copilot boilerplate for DESCRIPTION.md-first app delivery workflows.",
+  "scripts": {
+    "plan:next": "node scripts/find-plan-item.mjs next",
+    "plan:last": "node scripts/find-plan-item.mjs last",
+    "plan:summary": "node scripts/find-plan-item.mjs summary",
+    "progress:update": "node scripts/update-progress.mjs",
+    "changes:list": "node scripts/collect-changed-files.mjs",
+    "changes:check": "node scripts/check-changed-files.mjs",
+    "commit:draft": "node scripts/generate-commit-message.mjs",
+    "hooks:log": "node scripts/log-hook-event.mjs",
+    "hooks:validate": "node scripts/validate-workspace.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

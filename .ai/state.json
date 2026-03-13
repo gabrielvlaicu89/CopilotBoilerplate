@@ -1,0 +1,17 @@
+{
+  "planningStatus": "not-started",
+  "currentStepId": null,
+  "lastCompletedItemId": null,
+  "lastReviewedItemId": null,
+  "lastReviewOutcome": null,
+  "lastCommitMessage": null,
+  "lastPushAttempt": null,
+  "phaseCommits": [],
+  "recentNotes": [],
+  "lastRun": {
+    "timestamp": null,
+    "agent": null,
+    "action": null,
+    "status": null
+  }
+}
